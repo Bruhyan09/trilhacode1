@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: trilhacode
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
